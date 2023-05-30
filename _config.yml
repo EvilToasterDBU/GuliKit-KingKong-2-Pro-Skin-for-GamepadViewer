@@ -1,4 +1,4 @@
 remote_theme: benc-uk/theme-msdark
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-icon: fa-regular fa-gamepad-modern
+icon: far fa-gamepad-modern
