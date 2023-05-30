@@ -1,3 +1,34 @@
-remote_theme: pages-themes/hacker@v0.2.0
+title: GuliKit KingKong 2 Pro Skin for GamepadViewer
+description: >- # this means to ignore newlines until "baseurl:"
+How to?
+ In OBS add a "Browser" source with the link `https://gamepadviewer.com/?p=1` , width 800 and height 700.<br>
+ In CSS add code: `item: @import url("https://gulikit.toshta.ru/gulikit.css")`<br>
+ Or use `https://gamepadviewer.com/?editcss=https://gulikit.toshta.ru/gulikit.css` as source.
+ 
+А как?
+ В OBS добавьте источник "Браузер" с сылкой https://gamepadviewer.com/?p=1 , шириной 800 и высотой 700.<br>
+ В CSS добавьте код: `@import url("https://gulikit.toshta.ru/gulikit-ru.css")`<br>
+ Или используйте ссылку `https://gamepadviewer.com/?editcss=https://gulikit.toshta.ru/gulikit-ru.css` как источник.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "gulikit.toshta.ru" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+theme: jekyll-theme-simplex
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
+#logo_img: /assets/img/icons/simplex.svg #Absolute path to the logo. If not specified, the title will be displayed instead.
+copyright: © EvilToaster 2023, icons by Flaticon.com #Your copyright.
+logo_img: preview.gif #Absolute path to the logo. If not specified, the title will be displayed instead.
+collections:
+    category:
+        output: false
+    authors:
+        output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: 
+    values:
+      layout: ""
