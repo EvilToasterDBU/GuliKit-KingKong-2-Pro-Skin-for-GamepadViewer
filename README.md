@@ -4,7 +4,7 @@ In CSS add code: `item: @import url("https://gulikit.toshta.ru/gulikit.css")`<br
 Or use `https://gamepadviewer.com/?editcss=https://gulikit.toshta.ru/gulikit.css` as source.
 
 # А как?
-В OBS добавьте источник "Браузер" с сылкой https://gamepadviewer.com/?p=1 , шириной 800 и высотой 700.<br>
+В OBS добавьте источник "Браузер" с сылкой `https://gamepadviewer.com/?p=1` , шириной 800 и высотой 700.<br>
 В CSS добавьте код: `@import url("https://gulikit.toshta.ru/gulikit-ru.css")`<br>
 Или используйте ссылку `https://gamepadviewer.com/?editcss=https://gulikit.toshta.ru/gulikit-ru.css` как источник.
 
