@@ -9,4 +9,4 @@ Or use `https://gamepadviewer.com/?editcss=https://gulikit.toshta.ru/gulikit.css
 Или используйте ссылку `https://gamepadviewer.com/?editcss=https://gulikit.toshta.ru/gulikit-ru.css` как источник.
 
 # Preview/Превью
-<img src="preview.gif" alt="Preview"/>
+<img src="./img/preview.gif" alt="Preview"/>
