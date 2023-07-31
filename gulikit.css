@@ -1,6 +1,6 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(https://eviltoasterdbu.github.io/gulikit-kk2pro-skin-gamepadviewer/base.png);
+    background: url(./img/base.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
@@ -9,7 +9,7 @@
 
 
 .xbox.disconnected {
-    background: url(https://eviltoasterdbu.github.io/gulikit-kk2pro-skin-gamepadviewer/disconnect.png);
+    background: url(./img/disconnect.png);
 }
 
 .xbox.disconnected div {
@@ -26,7 +26,7 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(https://eviltoasterdbu.github.io/gulikit-kk2pro-skin-gamepadviewer/trigger.png);
+    background: url(./img/trigger.png);
     opacity: 0;
 }
 
@@ -43,16 +43,16 @@
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(https://eviltoasterdbu.github.io/gulikit-kk2pro-skin-gamepadviewer/bumper.png);
+    background: url(./img/bumper.png);
     opacity: 0;
 }
 
 .xbox .bumpers {
     position: absolute;
     width: 536px;
-    height: 61px;
+    height: 63px;
     left: 107px;
-    top: 129px;
+    top: 126px;
 }
 
 .xbox .bumper.pressed {
@@ -71,7 +71,7 @@
 
 .xbox .quadrant {
     position: absolute;
-    background: url(https://eviltoasterdbu.github.io/gulikit-kk2pro-skin-gamepadviewer/quadrant.png);
+    background: url(./img/quadrant.png);
     height: 45px;
     width: 45px;
     top: 258px;
@@ -108,7 +108,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(https://eviltoasterdbu.github.io/gulikit-kk2pro-skin-gamepadviewer/start-pressed.png);
+    background: url(./img/start-pressed.png);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -137,7 +137,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(https://eviltoasterdbu.github.io/gulikit-kk2pro-skin-gamepadviewer/abxy.png);
+    background: url(./img/abxy.png);
     width: 48px;
     height: 48px;
 }
